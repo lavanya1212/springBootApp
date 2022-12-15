@@ -10,6 +10,6 @@ public class AppController {
 	@RequestMapping("/welcome")
 	@ResponseBody
 	public String entryPoint() {
-		return "Welcome to the Spring Boot app";
+		return "Welcome to the Spring Boot app - change1";
 	}
 }
